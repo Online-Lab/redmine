@@ -31,6 +31,6 @@
 /vendor/cache
 /vendor/rails
 *.rbc
-
+*.swp
 /.bundle
 
