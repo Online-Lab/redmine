@@ -54,12 +54,12 @@ default:
     delivery_method: :smtp
     smtp_settings:
       enable_starttls_auto: true
-      address: "smtp.gmail.com"
+      address: "smtp.yandex.ru"
       port: 587
-      domain: "smtp.gmail.com" # 'your.domain.com' for GoogleApps
+      domain: "smtp.yandex.ru" # 'your.domain.com' for GoogleApps
       authentication: :plain
-      user_name: <%= ENV['GMAIL_USER_NAME'] %>
-      password: <%= ENV['GMAIL_PASSWORD'] %>
+      user_name: <%= ENV['YANDEX_USER_NAME'] %>
+      password: <%= ENV['YANDEX_PASSWORD'] %>
   #
   # ==== Sendmail command
   #
