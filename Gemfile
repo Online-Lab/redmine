@@ -102,3 +102,4 @@ end
 Dir.glob File.expand_path("../plugins/*/{Gemfile,PluginGemfile}", __FILE__) do |file|
   eval_gemfile file
 end
+gem 'aws-sdk', '~> 1'
